@@ -32,6 +32,8 @@ const handleDetails = (data) => {
                 <h3 class="m-1">Currency: ${data.currency}</h3>
                 <h3 class="m-1">Country area: ${data.country_area}</h3>
                 <h3 class="m-1">Country Population: ${data.country_population}</h3>
+                <h3 class="m-1">Asn: ${data.asn}</h3>
+                <h3 class="m-1">ISP: ${data.org}</h3>
     `;
     detailsContainer.appendChild(details);
 }
