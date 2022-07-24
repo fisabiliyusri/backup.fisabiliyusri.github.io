@@ -4,7 +4,7 @@ fetch('https://api.ipify.org?format=json')
 
 const ipdetail = (getIp) => {
     const ip = getIp + "";
-    fetch(`https://https://ipinfo.io/widget/${ ip }`)
+    fetch(`https://ipinfo.io/widget/${ ip }`)
     fetch(`https://ipapi.co/${ ip }/json/`)
         .then(res => res.json())
         .then(data => handleDetails(data))
